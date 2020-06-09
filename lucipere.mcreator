@@ -1,0 +1,91 @@
+{
+  "id_map": {
+    "ENTITY": 2
+  },
+  "mod_elements": [
+    {
+      "name": "Abuelitas",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      }
+    },
+    {
+      "name": "AbuelitasEntityDies",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AbuelitasThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lucipere",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HouseAbuelita",
+      "type": "structure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.abuelitas.name": "Abuelitas",
+      "itemGroup.tablucipere": "Lucipere"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "lucipere",
+    "modName": "Lucipere",
+    "version": "1.0.0",
+    "author": "Stephan Espel, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "modElementsPackage": "net.mcreator.lucipere",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}

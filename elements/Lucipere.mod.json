@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "Lucipere",
+    "icon": {
+      "value": "Items.MUSHROOM_STEW"
+    },
+    "showSearch": false
+  }
+}
